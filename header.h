@@ -1,11 +1,6 @@
- #include <stdlib.h>
- #include <stdio.h>
- #include <string.h>
- #include <unistd.h>
- #include <sys/msg.h>
- struct my_msg_st
- {
-        long int my_msg_type;
-        char some_text[BUFSIZ];
- };
-
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+#include<string.h>
+#include<fcntl.h>
+#include<sys/types.h>
